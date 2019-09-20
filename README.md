@@ -1,0 +1,11 @@
+# jobsheet10
+![Alt Text](https://github.com/ruquladam123/jobsheet10/blob/master/10.1.PNG)
+![Alt Text](https://github.com/ruquladam123/jobsheet10/blob/master/10.2.PNG)
+![Alt Text](https://github.com/ruquladam123/jobsheet10/blob/master/10.3.PNG)
+![Alt Text](https://github.com/ruquladam123/jobsheet10/blob/master/10.4.PNG)
+![Alt Text](https://github.com/ruquladam123/jobsheet10/blob/master/10.5.PNG)
+![Alt Text](https://github.com/ruquladam123/jobsheet10/blob/master/10.6.PNG)
+![Alt Text](https://github.com/ruquladam123/jobsheet10/blob/master/10.7.PNG)
+![Alt Text](https://github.com/ruquladam123/jobsheet10/blob/master/10.8.PNG)
+![Alt Text](https://github.com/ruquladam123/jobsheet10/blob/master/10.9.PNG)
+![Alt Text](https://github.com/ruquladam123/jobsheet10/blob/master/10.10.PNG)

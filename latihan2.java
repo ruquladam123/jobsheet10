@@ -3,36 +3,34 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jobsheet10;
+package bubbleshort;
+
+import java.util.Arrays;
 
 /**
  *
  * @author In your dream
  */
-import java.util.Scanner;
 public class latihan2 {
     public static void main(String [] args){
-        System.out.println("Data angka :");
-        int cari;
-        boolean found = false;
-        int []  data = new int [] {8,90,56,90,87,76,42};
-        for (int a = 0 ; a <data.length ; a++){
-            System.out.println(data [a] + "\t");
-        }
-        Scanner dam = new Scanner(System.in);
-        System.out.print("Masukan data yang ingin dicari : ");
-        cari = dam.nextInt();
-        for (int i = 0 ; i < data.length ; i++){
-            if (cari == data [i]) {
-                found =  true;
-                System.out.print("Data ditemukan pada indeks ke- " + i);
+          int [] bilangan = {4,9,1,20};
+    System.out.print("bilangan sebelum di sorting bubble sort : " + Arrays.toString(bilangan));
+    System.out.println("\nProses Bubble Sort secara Descending");
+    for (int i = 0 ; i < bilangan.length ; i++){
+        System.out.println("Iterasi" + +(i + 1));
+        for (int j = 0 ; j < bilangan.length-1 ; j++){
+            if (bilangan[j] < bilangan[j+1]){
+                int temp = bilangan[j];
+                bilangan[j] = bilangan[j+1];
+                bilangan [j+1] =  temp;
+                
+                
             }
-        }
-        if (found != true){
-            System.out.print("Data anda tidak ditemukan seperti jodoh anda !");
-        }
-        
-        
+        System.out.println(Arrays.toString (bilangan));
+    }
+        System.out.println();
+    }
+    System.out.println("Hasil akhir setelah di sorting :" + Arrays.toString (bilangan));
     }
     
 }
